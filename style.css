@@ -1,0 +1,103 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+main{
+    width: 60%;    
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;    
+}
+
+div {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+div h1 {
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Big Shoulders Display", "Helvetica";
+    color: hsl(0, 0%, 95%);
+}
+
+div p {
+    margin: 10px 0 50px 0;
+    font-family: "Lexend Deca", "Helvetica", "sans-serif";
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+button {
+    width: 60%;
+    padding: 10px;
+    font-family: "Lexend Deca", "Helvetica", "sans-serif";
+    font-size: 12px;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%) ;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.sedans {    
+    background-color: hsl(31, 77%, 52%); 
+    width: 33.3%;
+}
+
+.btn_1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn_1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.suvs {    
+    background-color: hsl(184, 100%, 22%);
+    width: 33.3%;
+}
+.btn_2{
+    color: hsl(184, 100%, 22%);
+}
+.btn_2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 33.3%;
+}
+
+.btn_3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn_3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media (max-width: 700px){
+    div{
+        display: inline-block;
+        width: 100%
+    }
+}
